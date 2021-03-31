@@ -1,3 +1,9 @@
+if game.PlaceId == 155615604 then -- checks the game id
+print("Loaded PrisonFuckr")
+else
+game.Players.LocalPlayer:kick("PolyFucr: Invalid GameId. TIP: Execute on PolyBattle")
+end
+
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
 
 local ESP = loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))()
