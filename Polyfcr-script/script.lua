@@ -1,5 +1,5 @@
-if game.PlaceId == 155615604 then -- checks the game id
-print("Loaded PrisonFuckr")
+if game.PlaceId == 4716045691 then -- checks the game id
+print("Loaded PolyFucr")
 else
 game.Players.LocalPlayer:kick("PolyFucr: Invalid GameId. TIP: Execute on PolyBattle")
 end
