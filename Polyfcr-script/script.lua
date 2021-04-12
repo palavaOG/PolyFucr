@@ -11,6 +11,16 @@ local ESP = loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))()
 
 local w = library:CreateWindow("Polybattle") -- Creates the window
 
+local c = w:CreateFolder("Movement")
+
+b:Slider("WalkSpeed",{
+    min = 16; -- min value of the slider
+    max = 255; -- max value of the slider
+    precise = true; -- max 2 decimals
+},function(value)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
+end)
+
 local b = w:CreateFolder("Visuals")
 
 local epic = false
